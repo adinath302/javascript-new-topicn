@@ -1,0 +1,92 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(129, 140, 243);
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#form input {
+    padding: 15px;
+    border-radius: 10px ;
+    width: 400px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+#main {
+    max-width:1000px;
+    width: 50%;
+    width: fit-content;
+    min-height: 500px;
+    background: rgb(50, 50, 214);
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* background: pink; */
+    margin-top: -150px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.user-info {
+    margin-left: 30px;
+}
+h2{
+    font-size:30px;
+}
+p{
+    font-size: larger;
+}
+.info {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.info li {
+    margin-right: 35px;
+    font-size: 18px;
+}
+
+#repos{
+    margin-top: 10px;
+}
+
+#repos a {
+    margin:10px;
+    line-height:2;
+    text-decoration: none;
+    padding: 2px;
+    background-color: rgb(18, 18, 88);
+    color: white;
+    border-radius: 5px;
+}
